@@ -1,0 +1,37 @@
+.content-projects {
+   background: black;
+}
+
+.list-projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 60px;
+
+}
+
+.title-project {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  color:white;
+}
+
+.item-list-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 50px;
+  border: 2px solid blue;
+  border-radius: 30px;
+
+}
+
+.name-project {
+  font-weight: 300;
+  color:white;
+
+}
